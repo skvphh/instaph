@@ -9,9 +9,25 @@
   </head>
 
   <body>
+    <div class="container-fluid container-background">
+  
 
-<%= link_to "Главная", root_path %>
-<%= link_to "О нас", pages_about_path %>
-    <%= yield %>
+      <div class="container">
+  
+
+        <ul class="nav nav-tabs">
+          <li class="nav-item">
+            <%= link_to "instaphoto", root_path, class: 'nav-landing' %>
+          </li>
+          <li class="nav-item">
+            <%= link_to "О проекте", pages_about_path, class: 'nav-landing' %>
+          </li>
+  
+        </ul>
+
+
+           <%= yield %>
+      </div>
+    </div>
   </body>
 </html>

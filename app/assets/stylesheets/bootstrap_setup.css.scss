@@ -1,0 +1,48 @@
+@import url(https://fonts.googleapis.com/css?family=Crafty+Girls);
+$display4-size: 2.5rem;
+$jumbotron-bg: rgba(255,255,255, 0.2);
+$btn-primary-bg: #6BB9F0;
+$btn-success-bg: #E08283;
+@import "bootstrap";
+
+.container-background {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-image: url(image_path('background.jpg'));
+}
+
+$text-color: blue;
+
+.title {
+    color: $text-color;
+}
+
+.introduction {
+    color: $text-color;
+}
+
+.main_path {
+    color: $text-color;
+}
+
+.conclusion {
+    color: $text-color;
+}
+
+.jumbotron-landing {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav-landing:link,
+.nav-landing:visited {
+    color: #2c3e50;
+}
+
+.nav-landing:hover,
+.nav-landing:active {
+    color: #663399;
+    text-decoration: none;
+}
