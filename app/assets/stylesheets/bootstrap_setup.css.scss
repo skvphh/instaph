@@ -3,6 +3,8 @@ $display4-size: 2.5rem;
 $jumbotron-bg: rgba(255,255,255, 0.4);
 $btn-primary-bg: #6BB9F0;
 $btn-success-bg: #E08283;
+$card-cap-bg: rgba(255,255,255, 0.5);
+$card-bg: rgba(255,255,255, 0.4);
 @import "bootstrap";
 
 .container-background {
@@ -20,6 +22,12 @@ $btn-success-bg: #E08283;
 
 .bg-transparent {
     background-color: rgba(255,255,255, 0);
+}
+
+.devise-form {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .nav-landing:link,
