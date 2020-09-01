@@ -36,7 +36,7 @@ gem 'bootstrap', '~> 4.0.0'
 # gem 'capistrano-rails', group: :development
 gem 'devise', '~> 4.7.2'
 gem "paperclip", "~> 6.0.0"
-gem 'aws-sdk', '~> 2.5'
+gem 'aws-sdk-s3', '~> 1.79'
 
 group :development do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
