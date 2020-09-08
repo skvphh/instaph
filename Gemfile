@@ -35,7 +35,7 @@ gem 'bootstrap', '~> 4.0.0'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 gem 'devise', '~> 4.7.2'
-gem "paperclip", "~> 6.0.0"
+gem "paperclip"
 gem 'aws-sdk-s3', '~> 1.79'
 
 group :development do
