@@ -1,24 +1,26 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Приложение "instaphoto"
+### Описание
+В данном приложении можно загружать фотографии и просматривать фото других пользователей
 
-Things you may want to cover:
+### Запуск программы
+Необходимо клонировать репозиторий командой:
+```
+git clone https://github.com/skvphh/instaph.git
+```
+Перейти в папку проекта
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Перед запуском программы необходимо выполнить команды:
+```
+bundle install
+bundle exec rake db:migrate
+```
+Для запуска приложения выполнить команду:
+```
+bundle exec rails s
+```
+Перейти по ссылке:
+```
+http://localhost:3000/
+```
